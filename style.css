@@ -1,0 +1,71 @@
+.container {
+    margin: 30px 200px;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 200;
+}
+#to-do-list-due-date {
+    width: 150px;
+    height: 35px;
+    text-align: center;
+}
+
+#to-do-list-info {
+    width: 600px;
+    height: 35px;
+    text-align: center;
+}
+
+#to-do-list-add-btn {
+    width: 150px;
+    height: 42px;
+    background-color: #4556ee;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 3px 2px rgba(0,0,0,0.63);
+}
+
+#display-list {
+    padding: 0 50px;
+}
+#display-list table{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+}
+#display-list table th:nth-child(even) {
+    width: 70%;
+}
+
+.table-heading {
+    font-weight: 700;
+    font-size: 21px;
+    border-bottom: 2px solid #E0E0E0;
+}
+
+#display-list-table-body tr{
+    border-bottom: 2px solid #E0E0E0;
+}
+#display-list-table-body td{
+    padding: 8px 0;
+}
+.btnDelete {
+    background-color: white;
+    border: none;
+    color: rgb(240, 48, 48);
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.btnDelete:hover {
+    cursor: pointer;
+    background-color: rgb(240, 48, 48);
+    color: white;
+}
