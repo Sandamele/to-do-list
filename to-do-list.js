@@ -9,7 +9,7 @@ btnAddToDoList.addEventListener("click", () => {
   var combineInfo = `
   <tr id='list${num}'>
     <td> 
-    ${setDate.getDate()}-${setDate.getMonth()}-${setDate.getFullYear()} ${setDate.getHours()}:${setDate.getMinutes()}
+    ${setDate.getDate()}/${setDate.getMonth()}/${setDate.getFullYear()} ${setDate.getHours()}:${setDate.getMinutes()}
     </td>
     <td> ${getList.value}</td> 
     <td>
